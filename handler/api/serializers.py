@@ -17,11 +17,6 @@ class UserSerializer(serializers.ModelSerializer):
         model = User 
         fields = ['username', 'flashcards', 'id']
 
-# class UserSerializer(serializers.ModelSerializer):
-
-#     class Meta:
-#         model = User 
-#         fields = ['username']
 
 class UserSerializerWithToken(serializers.ModelSerializer):
 
